@@ -1,4 +1,4 @@
-{
+{${vcard.uuid}
   "type": "bubble",
   "hero": {
     "type": "image",
@@ -34,7 +34,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "${vcard.title_tw}",
+                "text": "123",
                 "color": "#aaaaaa",
                 "size": "sm",
                 "flex": 1
