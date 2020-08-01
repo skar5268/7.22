@@ -1,6 +1,5 @@
 {
   "type": "bubble",
-  ${vcard.uuid}
   "hero": {
     "type": "image",
     "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
@@ -35,14 +34,14 @@
             "contents": [
               {
                 "type": "text",
-                "text": "_.template(${vcard.title_tw})",
+                "text": "${vcard.title_tw}",
                 "color": "#aaaaaa",
                 "size": "sm",
                 "flex": 1
               },
               {
                 "type": "text",
-                "text": "_.template(${vcard.name_tw})",
+                "text": "${vcard.name_tw}",
                 "wrap": true,
                 "color": "#666666",
                 "size": "sm",
@@ -64,7 +63,7 @@
               },
               {
                 "type": "text",
-                "text": "_.template(${vcard.mobile})",
+                "text": "${vcard.mobile}",
                 "wrap": true,
                 "color": "#666666",
                 "size": "sm",
@@ -92,7 +91,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "_.template(${vcard.email})",
+                    "text": "${vcard.email}",
                     "wrap": true,
                     "color": "#666666",
                     "size": "sm",
