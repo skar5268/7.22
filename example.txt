@@ -35,14 +35,14 @@
             "contents": [
               {
                 "type": "text",
-                "text": "${vcard.title_tw}",
+                "text": "_.template(${vcard.title_tw})",
                 "color": "#aaaaaa",
                 "size": "sm",
                 "flex": 1
               },
               {
                 "type": "text",
-                "text": "${vcard.name_tw}",
+                "text": "_.template(${vcard.name_tw})",
                 "wrap": true,
                 "color": "#666666",
                 "size": "sm",
@@ -64,7 +64,7 @@
               },
               {
                 "type": "text",
-                "text": "${vcard.mobile}",
+                "text": "_.template(${vcard.mobile})",
                 "wrap": true,
                 "color": "#666666",
                 "size": "sm",
@@ -92,7 +92,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "${vcard.email}",
+                    "text": "_.template(${vcard.email})",
                     "wrap": true,
                     "color": "#666666",
                     "size": "sm",
