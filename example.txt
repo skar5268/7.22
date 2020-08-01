@@ -34,7 +34,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "${vcard.title_tw}",
+                "text": "${vcard.uuid}",
                 "color": "#aaaaaa",
                 "size": "sm",
                 "flex": 1
